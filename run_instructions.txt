@@ -1,0 +1,19 @@
+
+Run Instructions.txt
+
+Before attempting to complete the following steps, please ensure that you have Python 3.6+ installed on your computer and added to the PATH variable. Additionally, that you have PIP - the python package manager to install the required dependencies. 
+
+Steps:
+
+Unzip the received .zip directory 
+
+CD (change directory) into the now unzipped directory
+
+Run “pip install requirements.txt” from the command shell to install the required project dependencies
+
+To execute the program, run “python scrape.py “your_tag” “num_of_pages”, the example below is based on the assumption that I am looking to scrape 3 pages of “gaming” products from Hot Uk Deals
+
+CMD: python scrape.py gaming 3
+
+You should then have visibility of a generated text file within your directory using the tag you entered for naming convention. This file contains the scraped and cleaned data.
+
